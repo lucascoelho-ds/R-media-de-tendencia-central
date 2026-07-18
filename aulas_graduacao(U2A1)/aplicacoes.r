@@ -46,7 +46,10 @@ print(paste("Médiana dos Salários:", mediana_salarios)) # --> Saída: "Médian
 
 vendas <-  c(70, 80, 90, 100, 85, 70, 95, 88, 92, 78, 84, 91, 87, 93, 77, 89, 86, 94, 79, 96)
 media_vendas <- mean(vendas)
-print(paste("Média das Vendas:", media_vendas)) # ---> Saída: "Média das Vendas: 86.2"
+print(paste("Média das Vendas:", media_vendas)) # --> Saída: "Média das Vendas: 86.2"
 
 mediana_vendas <- median(vendas)
-print(paste("Mediana das Vendas:", mediana_vendas))
+print(paste("Mediana das Vendas:", mediana_vendas)) # --> Saída: "Mediana das Vendas: 87.5"
+
+# Mediana das vendas é 87.5, o que fornece uma visão adicional sobre a distribuição das
+# vendas dos produtos.
